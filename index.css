@@ -1,0 +1,538 @@
+
+body{
+    margin:0;
+    padding:0;
+
+}
+
+.websitename{
+    padding-top:60.4px;
+    padding-left:139.4px;
+    text-align: left;
+    font: normal normal 300 26px/36px Bahnschrift;
+    letter-spacing: 0px;
+    color: #FFFFFF
+}
+
+.header{
+    background-image: url("https://ak-d.tripcdn.com/images/350t10000000p31fy9C36_C_1136_640_Q60.jpg?proc=source/trip;namelogo/d_40");
+    height: 680px;
+    width: 1100px;
+    top: 0px;
+    left: 0px;
+    /*background:#4D4D4D 0% 0% no-repeat padding-box;*/
+    opacity: 0.7;
+    border-radius:0px 0px 100px 0px;
+    /*z-index: -1;*/
+
+}
+.header-text1{
+    padding-top: 80px;
+    padding-left: 93px;
+    /*width: 95px;*/
+    /*height: 42px;*/
+    text-align: left;
+    font: normal normal bold 42px/58px Bahnschrift;
+    letter-spacing: 0px;
+}
+#mainheader{
+ display: flex;
+}
+
+#nexthalf{
+    text-align: left;
+    font: normal normal bold 42px/58px Bahnschrift;
+    letter-spacing: 0px;
+    color: white;
+}
+#about{
+    width: 820px;
+    box-sizing: border-box;
+}
+ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0;
+    overflow: hidden;
+}
+.ye{
+    color:#FFB300;
+}
+.to{
+    color:#FFB300;
+}
+.from{
+    color:white;
+}
+.from-city-location{
+    font: normal normal bold 13px/19px Bahnschrift;
+    color:#BEBEBE;
+}
+li {
+    margin-right:20px ;
+    float: right;
+    font: normal normal normal 13px/20px Bahnschrift;
+    /*padding: 0px;*/
+}
+/*#left-bar{*/
+/*    display: flex;*/
+/*}*/
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    /*padding: 16px;*/
+    text-decoration: none;
+}
+.fa-facebook{
+    width:8px;
+    height:14px;
+
+}
+.fa-instagram{
+    width:8px;
+    height:14px;
+}
+#aboutcompany{
+    padding-top: 60.4px;
+    padding-right: 100px
+}
+.instagram{
+    padding-left: 325px;
+}
+.about-company-nav{
+    width: 820px;
+}
+.around-georgia{
+    color:#FFB300;
+}
+.header-text{
+    padding-top: 50px;
+    padding-left: 100px;
+    text-align: left;
+    font: normal normal bold 42px/58px Bahnschrift;
+    letter-spacing: 0px;
+    color: #FFB300;
+}
+.view-fully-icon{
+    padding-left: 20px;
+
+}
+.after-first{
+    margin-left: 10px;
+}
+.location{
+    width:295px;
+    height:100px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 20px;
+    opacity:0.8;
+    margin:10px;
+    background-color: gray;
+    margin-left: 5px;
+    margin-right: 5px;
+
+    /*filter: blur(8px);*/
+    /*-webkit-filter: blur(8px);*/
+
+
+}
+.slide-container1{
+    height: 320px;
+}
+#deadtext{
+    text-align: left;
+    font: normal normal normal 13px/20px Bahnschrift;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    width:500px;
+    height:38px;
+    padding-bottom:20px;
+    padding-left: 101px;
+}
+.btn {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    cursor:pointer;
+    color: white;
+    border:2px solid white;
+    width:159px;
+    height: 31px;
+    border-radius: 174px;
+    outline:none;
+
+    margin-left:18px;
+    font: normal normal normal 13px/19px Bahnschrift;
+
+}
+.btn:hover{
+    background-color: #FFFFFF;
+    color:black;
+    cursor: pointer;
+}
+#airports{
+    padding-left: 40px;
+    magin-left:30px;
+    padding-right: 43px;
+}
+body {
+    background: #ffffff;
+    color: #414141;
+    font: 400 17px/2em 'Source Sans Pro', sans-serif;
+}
+
+.select-box1 {
+    cursor: pointer;
+    position : relative;
+    width: 625px;
+    height: 61px;
+    min-width: 130px;
+    background: #ececec;
+    border-radius: 78px;
+    border:2px solid #FFB300;
+}
+.to-city,.for-time,.to-time{
+    display: flex;
+    padding-left: 95px;
+    padding-right: 100px;
+    padding-top: 20px;
+}
+.from-city{
+    padding-left: 95px;
+    display: flex;
+    padding-right: 100px;
+}
+
+
+.select,
+.label {
+
+    color: #414141;
+    display: block;
+    font: 400 17px/2em 'Source Sans Pro', sans-serif;
+}
+
+
+.select {
+    width: 625px;
+    position: absolute;
+    top: 0;
+
+    height: 40px;
+    opacity: 0;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    background: none transparent;
+    border: 0 none;
+}
+
+/*.select-box1 {*/
+/*    background: #ececec;*/
+/*    border-radius: 78px;*/
+/*    border:2px solid #FFB300;*/
+/*}*/
+
+.label {
+
+    position: relative;
+    /*position: absolute;*/
+    padding: 8px 13px;
+    cursor: pointer;
+    text-align: left;
+    margin-top: 15px;
+    font: normal normal normal 13px/20px Bahnschrift;
+    letter-spacing: 0px;
+    color: #BEBEBE;
+}
+
+.open .label::after {
+    content: "▲";
+}
+
+.label::after {
+    content: "▼";
+    font-size: 12px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 5px 15px;
+    color:#FFB300;
+}
+.label-desc{
+    /*text-align: left;*/
+    font: normal normal normal 13px/20px Bahnschrift;
+    letter-spacing:0 ;
+    color:#4D4D4D;
+    text-align: left;
+
+
+}
+.form{
+    padding-top:75px;
+}
+
+
+#slider {
+    height:270px;
+    width:895px;
+    /*overflow:hidden;*/
+    padding-left:50px ;
+}
+
+/*.slide {*/
+/*    height:270px;*/
+/*    width:895px;*/
+/*    float:left;*/
+/*    text-align:center;*/
+/*    color: #FFB300;*/
+/*    padding-left: 30px;*/
+/*    display: flex;*/
+/*    overflow:hidden;*/
+/*}*/
+.slide-container1{
+    display: flex;
+    /*padding-left: 90px;*/
+    width:895px;
+    overflow:hidden;
+}
+.slider-1{
+    display: grid;
+    grid-template-columns: repeat(3,295px);
+    grid-template-rows: repeat(2,100px) ;
+    grid-gap: 3px;
+    height:270px;
+    width:895px;
+    /*float:left;*/
+    /*position: relative;*/
+}
+.from-city-location-icon{
+    padding-left: 47px;
+    padding-top: 32px;
+    color: #BEBEBE;
+}
+.to-city-location-icon{
+    color:#FFB300;
+    padding-left: 47px;
+
+}
+.to-city-location{
+    font:normal normal bold 13px/19px Bahnschrift;
+    color:#BEBEBE;
+}
+.btnnavigation{
+    width: 200px;
+    height: 61px;
+    background: #F6F6F6 0% 0% no-repeat padding-box;
+    border-radius: 78px;
+    opacity: 1;
+    text-align: center;
+    font: normal normal normal 13px/20px Bahnschrift;
+    letter-spacing: 0px;
+    color: #4D4D4D;
+    margin-top: 57px;
+}
+.revbtnnavigation{
+    margin-top: 25px;
+
+}
+.see-fully{
+    margin-left:10px;
+}
+.about-tours{
+    /*box-sizing: content-box;*/
+    height:320px;
+    /*width:100%;*/
+    padding-top: 150px;
+    /*padding-left:100px*/
+}
+
+#photo-slider{
+    height:300px;
+    overflow:hidden;
+    display: flex;
+    /*width:670px;*/
+    /*overflow:hidden;*/
+}
+.aboutstarttrip-text{
+    padding-top:13px ;
+    width: 269px;
+    height: 42px;
+    text-align: left;
+    font: normal normal normal 42px/20px Bahnschrift;
+    letter-spacing: 0px;
+    color: #4D4D4D;
+    padding-left: 70px;
+    display: flex;
+}
+.aboutstarttrip-text-color{
+    color: #FFB300
+}
+.about-company-information{
+    flex-direction: column;
+    width: 980px;
+}
+.about-company-information-navigation{
+    display: flex;
+    padding-left: 70px;
+}
+.StarTripge{
+    text-align: left;
+    font: normal normal normal 13px/20px Bahnschrift;
+    letter-spacing: 0px;
+    color: #BEBEBE;
+    padding-left: 70px;
+}
+.img-slider{
+    width:670px;
+    height: 300px;
+    overflow:hidden;
+    padding-left:100px
+    /*position: absolute;*/
+}
+.images{
+    width:2010px;
+    display: flex;
+    /*overflow:hidden;*/
+    position: relative;
+}
+/*img{*/
+/*    z-index: -1;*/
+/*    width:670px ;*/
+/*    height: 300px;*/
+/*    border-radius: 1px 100px 30px 20px*/
+/*}*/
+.first-image{
+    width:670px ;
+    height: 300px;
+    z-index: -1;
+    background-image: url("https://ak-d.tripcdn.com/images/350t10000000p31fy9C36_C_1136_640_Q60.jpg?proc=source/trip;namelogo/d_40");
+    border-radius: 1px 100px 30px 20px;
+
+}
+.second-image{
+    width:670px ;
+    height: 300px;
+    background-image: url("https://picsum.photos/600/400/?image=476");
+    z-index: -1;
+    border-radius: 1px 100px 30px 20px
+}
+.third-image{
+    width:670px ;
+    height: 300px;
+    background-image: url("https://picsum.photos/600/400/?image=47");
+    z-index: -1;
+    border-radius: 1px 100px 30px 20px
+}
+#cities{
+    width: 625px;
+    height: 61px;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 2px solid #FFB300;
+    border-radius: 78px;
+    opacity: 1;
+
+}
+select{
+    border:white;
+}
+.tours-around-georgia{
+    text-align: left;
+    letter-spacing: 0px;
+    opacity: 1;
+    padding-top: 150px;
+    padding-left: 101px;;
+}
+.tab {
+    overflow: hidden;
+    background-color: white;
+    height: 61px;
+    /*align-content: flex-end;*/
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s;
+    width: 125px;
+    height: 41px;
+    border-radius: 78px;
+    text-align: left;
+    font: normal normal normal 13px/20px Bahnschrift;
+    letter-spacing: 0px;
+    color: #BEBEBE;
+    opacity: 1;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background: #FFB300 0% 0% no-repeat padding-box;
+    color: #FFFFFF;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #FFB300;
+    color: white;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding-top: 40px;
+    /*border: 1px solid #ccc;*/
+    /*display: flex;*/
+
+}
+.about-tours-tbilisi{
+    width: 320px;
+    height: 400px;
+    background: transparent url('https://picsum.photos/600/400/?image=476') 0% 0% no-repeat padding-box;
+    border-radius: 30px;
+    opacity: 0.4;
+}
+.about-tours-kazbegi{
+    width: 320px;
+    height: 400px;
+    background: transparent url('https://picsum.photos/600/400/?image=476') 0% 0% no-repeat padding-box;
+    border-radius: 30px;
+    opacity: 0.9;
+}
+.about-tours-mtskheta{
+    width: 320px;
+    height: 400px;
+    background: transparent url('https://picsum.photos/600/400/?image=476') 0% 0% no-repeat padding-box;
+    border-radius: 30px;
+    opacity: 0.4;
+}
+.about-tours-martvili{
+    width: 320px;
+    height: 400px;
+    background: transparent url('https://picsum.photos/600/400/?image=476') 0% 0% no-repeat padding-box;
+    border-radius: 30px;
+    opacity: 0.4;
+}
+.about-tours-khevsureti{
+    width: 320px;
+    height: 400px;
+    background: transparent url('https://picsum.photos/600/400/?image=476') 0% 0% no-repeat padding-box;
+    border-radius: 30px;
+    opacity: 0.4;
+}
+#view-fully{
+    margin-left: 910px;
+    position: absolute;
+    width: 200px;
+    height: 61px;
+    background: #FFB300 0% 0% no-repeat padding-box;
+    border-radius: 78px;
+    opacity: 1;
+    /*margin-left: 30px;*/
+    text-align: center;
+    color: white;
+}
+
+
